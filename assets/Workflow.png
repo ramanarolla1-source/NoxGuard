@@ -1,1 +1,59 @@
+                           Institution
 
+                     Initiates Business Request
+                                │
+                                ▼
+══════════════════════════════════════════════════════════════
+
+                 Existing Solidity Protocol
+                     (Reference: Aave)
+
+        Borrow • Repay • Collateral • Liquidation
+
+══════════════════════════════════════════════════════════════
+                                │
+                                ▼
+
+                      NOXGUARD Runtime
+
+               Confidential Business Lifecycle
+
+      ┌──────────────────────────────────────────────┐
+      │                                              │
+      │  ① Business Policy Verification              │
+      │                                              │
+      │  ② Rights Evaluation                         │
+      │                                              │
+      │  ③ Confidential Approval                     │
+      │                                              │
+      │  ④ Lifecycle Monitoring                      │
+      │                                              │
+      │  ⑤ Policy Driven State Transition            │
+      │                                              │
+      └──────────────────────────────────────────────┘
+
+══════════════════════════════════════════════════════════════
+                                │
+                                ▼
+
+                         iExec NOX
+
+                  Confidential Computation
+
+               Trusted Execution Environment
+
+               Cryptographic Attestation
+
+══════════════════════════════════════════════════════════════
+                                │
+                                ▼
+
+                     Verified Decision
+
+══════════════════════════════════════════════════════════════
+                                │
+                                ▼
+
+                    Ethereum Blockchain
+
+              Final Settlement & State Update
