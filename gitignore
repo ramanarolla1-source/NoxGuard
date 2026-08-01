@@ -1,1 +1,72 @@
+# -----------------------------------------------------------------------------
+# NoxGuard
+# Git Ignore
+# -----------------------------------------------------------------------------
 
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Hardhat
+artifacts/
+cache/
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage
+coverage/
+coverage.json
+
+# Build output
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Local blockchain
+*.db
+
+# Secrets
+*.pem
+*.key
+*.keystore
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Test reports
+test-results/
+playwright-report/
+
+# Misc
+*.swp
+*.swo
