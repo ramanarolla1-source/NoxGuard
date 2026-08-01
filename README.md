@@ -5,10 +5,6 @@
 
 > **Extending Existing Solidity Smart Contracts with Programmable Privacy using iExec Nox**
 
-<p align="center">
-  <img src="assets/Banner.png" alt="NoxGuard Banner" width="100%">
-</p>
-
 ---
 
 Demo Video: https://youtu.be/EIbAPeY_22w
@@ -230,16 +226,6 @@ Detailed documentation is available inside the **docs/** directory.
 - Business Lifecycle
 - Integration with Aave
 - Security
-
----
-
-# Demo
-
-🎥 Demo Video
-
-📄 One Pager
-
-🏗 Architecture
 
 ---
 
