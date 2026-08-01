@@ -1,1 +1,50 @@
-
+{
+  "name": "noxguard",
+  "version": "1.0.0",
+  "description": "NoxGuard extends existing Solidity smart contracts with Confidential Business Lifecycle Management using iExec Nox, enabling developers to implement confidential business policies with programmable privacy, TEE-backed execution, and verifiable attestation.",
+  "author": "NoxGuard Contributors",
+  "license": "Apache-2.0",
+  "private": false,
+  "keywords": [
+    "iExec",
+    "Nox",
+    "Solidity",
+    "Ethereum",
+    "Hardhat",
+    "Confidential Computing",
+    "Programmable Privacy",
+    "Smart Contracts",
+    "TEE",
+    "DeFi",
+    "Aave",
+    "Institutional Finance",
+    "Business Lifecycle",
+    "Confidential Business Policies"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/NoxGuard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/NoxGuard/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/NoxGuard#readme",
+  "scripts": {
+    "clean": "hardhat clean",
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "coverage": "hardhat coverage",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "lint": "echo \"No linter configured\"",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@iexec/nox-hardhat-plugin": "latest",
+    "dotenv": "^16.4.7",
+    "hardhat": "^3.0.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "ts-node": "^10.9.2"
+  }
+}
