@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>NoxGuard</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>NoxGuard</h1>
+
+    <p>
+        Confidential Business Lifecycle Management
+    </p>
+
+    <small>
+        Extending Existing Solidity Smart Contracts with Programmable Privacy using iExec Nox
+    </small>
+
+</header>
+
+<hr>
+
+<section>
+
+    <h2>Reference Integration</h2>
+
+    <div class="card">
+
+        <h3>Existing Protocol</h3>
+
+        <p>Aave</p>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Business Policy</h2>
+
+    <div class="card">
+
+        <h3>Status</h3>
+
+        <p id="policy-status">
+            Not Initialized
+        </p>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Business Lifecycle</h2>
+
+    <div class="card">
+
+        <h3>Current Stage</h3>
+
+        <p id="lifecycle-status">
+            Idle
+        </p>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>iExec Nox Runtime</h2>
+
+    <div class="card">
+
+        <h3>Confidential Execution</h3>
+
+        <p id="tee-status">
+            Waiting
+        </p>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Ethereum</h2>
+
+    <div class="card">
+
+        <h3>Settlement</h3>
+
+        <p id="settlement-status">
+            Not Started
+        </p>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section>
+
+    <h2>Workflow</h2>
+
+    <div class="workflow">
+
+        <div>User</div>
+
+        <span>↓</span>
+
+        <div>Aave</div>
+
+        <span>↓</span>
+
+        <div>NoxGuard</div>
+
+        <span>↓</span>
+
+        <div>iExec Nox</div>
+
+        <span>↓</span>
+
+        <div>Ethereum</div>
+
+    </div>
+
+</section>
+
+<hr>
+
+<section>
+
+    <h2>Demonstration</h2>
+
+    <button id="btnInitialize">
+
+        Initialize Business Policy
+
+    </button>
+
+    <button id="btnVerify">
+
+        Verify Business Policy
+
+    </button>
+
+    <button id="btnExecute">
+
+        Execute Confidential Policy
+
+    </button>
+
+    <button id="btnReset">
+
+        Reset Workflow
+
+    </button>
+
+</section>
+
+<footer>
+
+    <hr>
+
+    <p>
+
+        Built with iExec Nox
+
+    </p>
+
+    <small>
+
+        Reference Implementation demonstrating Confidential Business Lifecycle Management.
+
+    </small>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
