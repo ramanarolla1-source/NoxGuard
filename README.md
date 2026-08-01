@@ -257,6 +257,28 @@ npx hardhat run scripts/verifyPolicy.ts --network sepolia
 
 ---
 
+## Testing
+
+Compile the contracts:
+
+```bash
+npm run compile
+```
+
+Run the complete test suite:
+
+```bash
+npm test
+```
+
+The current test suite verifies:
+
+- NoxGuard deployment
+- Confidential Business Policy creation
+- Business Lifecycle initialization
+
+These tests demonstrate the reference architecture and workflow presented throughout this repository.
+
 # License
 
 Apache 2.0 License
