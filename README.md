@@ -237,6 +237,24 @@ They will need reusable patterns for implementing Confidential Business Policies
 
 NoxGuard demonstrates one possible programming model for that future.
 
+# Install dependencies
+npm install
+
+# Compile contracts
+npm run compile
+
+# Deploy contracts
+npm run deploy:sepolia
+
+# Initialize a confidential business policy
+npx hardhat run scripts/initializePolicy.ts --network sepolia
+
+# Request confidential policy verification
+npx hardhat run scripts/startLifecycle.ts --network sepolia
+
+# Execute the confidential business policy
+npx hardhat run scripts/verifyPolicy.ts --network sepolia
+
 ---
 
 # License
