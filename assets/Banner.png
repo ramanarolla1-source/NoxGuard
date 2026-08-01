@@ -1,1 +1,35 @@
+                        Existing Solidity Protocol
+                           (Reference: Aave)
 
+            Borrow • Repay • Collateral • Liquidation
+                             │
+                             ▼
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                    NOXGUARD
+
+      Confidential Business Lifecycle Management
+
+      • Business Policy Implementation
+      • Rights Evaluation
+      • Policy Verification
+      • Lifecycle Decisions
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                             │
+                             ▼
+
+                     iExec NOX
+
+      Confidential Computation • TEE • Attestation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+                             │
+                             ▼
+
+                  Ethereum Blockchain
+
+          Transparent Settlement • State Finality
