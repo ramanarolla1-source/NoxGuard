@@ -1,1 +1,46 @@
+                               Existing Solidity Protocol
+                                      (Reference: Aave)
 
+                  Borrow • Repay • Collateral • Liquidation
+                                            │
+                                            ▼
+══════════════════════════════════════════════════════════════════════════
+
+                              NOXGUARD
+
+                 Confidential Business Lifecycle Management
+
+      ┌────────────────────────────────────────────────────────────┐
+      │                                                            │
+      │  • Confidential Business Policy Implementation             │
+      │  • Rights Evaluation                                       │
+      │  • Policy Verification                                     │
+      │  • Lifecycle State Management                              │
+      │  • Confidential Business Workflow Orchestration            │
+      │                                                            │
+      └────────────────────────────────────────────────────────────┘
+
+                                            │
+                                            ▼
+══════════════════════════════════════════════════════════════════════════
+
+                               iExec NOX
+
+                    Confidential Computing Runtime
+
+      ┌────────────────────────────────────────────────────────────┐
+      │                                                            │
+      │  • Confidential Computation                               │
+      │  • Trusted Execution Environment (TEE)                    │
+      │  • Cryptographic Attestation                              │
+      │  • Verifiable Execution                                   │
+      │                                                            │
+      └────────────────────────────────────────────────────────────┘
+
+                                            │
+                                            ▼
+══════════════════════════════════════════════════════════════════════════
+
+                             Ethereum Blockchain
+
+                    Transparent Settlement & State Updates
